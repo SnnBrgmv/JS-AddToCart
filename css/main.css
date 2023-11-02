@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,19 +12,23 @@ body{
     align-items: flex-start;
     background-color: grey;
 }
-.card img{
+
+.card img {
     width: 100%;
     height: 150px;
     object-fit: contain;
     object-position: center;
 }
-.w-8{
+
+.w-8 {
     width: 8%;
 }
-.w-10{
+
+.w-10 {
     width: 10%;
 }
-.cart-count{
+
+.cart-count {
     width: 200px;
     height: 5vh;
     border: 1px solid grey;
@@ -31,13 +36,15 @@ body{
     padding-left: 3px;
     background-color: #f8f9fa;
 }
-.cart-btn{
+
+.cart-btn {
     height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.delete-cart-item{
+
+.delete-cart-item {
     max-width: 20%;
     height: 4.5vh;
     color: white;
@@ -46,6 +53,29 @@ body{
     justify-content: center;
     align-items: center;
 }
-.delete-cart-item:hover{
+
+.delete-cart-item:hover {
     cursor: pointer;
+}
+
+.product-name {
+    width: 10%;
+}
+
+.product-price {
+    width: 4%;
+    margin-left: 15px;
+}
+
+.product-quantity {
+    width: 48%;
+    margin-left: 5px;
+}
+
+.product-delete {
+    width: 18%;
+}
+
+.product-total {
+    width: 4%;
 }
